@@ -1,9 +1,10 @@
-package database;
+package com.example.database;
 
-import com.onarinskyi.context.AbstractTestNGTest;
+import com.example.base.BaseTest;
 import com.example.database.DatabaseManager;
 import com.example.database.entities.Person;
 import com.example.database.repositories.PersonRepository;
+import com.onarinskyi.context.AbstractTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.testng.annotations.AfterClass;
@@ -19,7 +20,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 @Features(Feature.DATABASE)
 @Stories("In-memory database test")
 @Transactional
-public class DbTest extends AbstractTestNGTest {
+public class DbTest extends BaseTest {
 
     @Autowired
     private PersonRepository repository;

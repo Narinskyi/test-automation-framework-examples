@@ -1,11 +1,8 @@
-package ui;
+package com.example.ui;
 
+import com.example.base.BaseUiTest;
 import com.example.gui.model.Car;
-import com.example.gui.pages.CarDetailsPage;
-import com.example.gui.pages.CarsPage;
 import com.example.reporting.Feature;
-import com.onarinskyi.annotations.ui.PageObject;
-import com.onarinskyi.context.AbstractUITest;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
@@ -13,13 +10,7 @@ import ru.yandex.qatools.allure.annotations.TestCaseId;
 
 @Features(Feature.GUI)
 @Stories("Car rent")
-public class UiTest extends AbstractUITest {
-
-    @PageObject
-    private CarsPage onCarsPage;
-
-    @PageObject
-    private CarDetailsPage onCarDetailsPage;
+public class UiTest extends BaseUiTest {
 
     @Test
     @TestCaseId("1")

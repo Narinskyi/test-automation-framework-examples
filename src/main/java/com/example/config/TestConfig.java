@@ -1,9 +1,9 @@
-package com.example;
+package com.example.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = {"com.onarinskyi", "com.example"})
+@ComponentScan(basePackages = {"com.example"})
 public class TestConfig {
 }
