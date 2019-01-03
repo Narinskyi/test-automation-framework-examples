@@ -1,4 +1,4 @@
-package com.example.base;
+package base;
 
 import com.example.config.TestConfig;
 import com.example.gui.pages.CarDetailsPage;

@@ -1,18 +1,18 @@
 package api;
 
+import base.BaseTest;
 import com.example.api.request.BestSellersRequest;
 import com.example.api.response.bestseller.BestSellersResponse;
+import com.example.reporting.Feature;
 import com.onarinskyi.annotations.api.Request;
-import com.onarinskyi.context.AbstractTestNGTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import com.example.reporting.Feature;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 
 @Features(Feature.API)
 @Stories("BestSellers API")
-public class ApiTest extends AbstractTestNGTest {
+public class ApiTest extends BaseTest {
 
     @Request
     private BestSellersRequest request;

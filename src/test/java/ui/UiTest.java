@@ -1,6 +1,6 @@
-package com.example.ui;
+package ui;
 
-import com.example.base.BaseUiTest;
+import base.BaseUiTest;
 import com.example.gui.model.Car;
 import com.example.reporting.Feature;
 import org.testng.annotations.Test;

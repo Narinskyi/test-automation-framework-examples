@@ -1,10 +1,9 @@
-package com.example.database;
+package database;
 
-import com.example.base.BaseTest;
+import base.BaseTest;
 import com.example.database.DatabaseManager;
 import com.example.database.entities.Person;
 import com.example.database.repositories.PersonRepository;
-import com.onarinskyi.context.AbstractTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.testng.annotations.AfterClass;
