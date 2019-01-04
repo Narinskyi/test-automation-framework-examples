@@ -51,7 +51,7 @@ public class UiTest extends BaseUiTest {
     }
 
     @Test
-    @TestCaseId("3")
+    @TestCaseId("4")
     public void failingTest() {
         onCarsPage.open();
 
