@@ -1,6 +1,6 @@
 package com.example.gui.components;
 
-import com.example.gui.model.CarType;
+import com.example.gui.models.CarType;
 import com.onarinskyi.annotations.ui.PageComponent;
 import com.onarinskyi.annotations.ui.PageComponentClass;
 import com.onarinskyi.gui.AbstractPageComponent;

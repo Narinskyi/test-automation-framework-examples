@@ -1,4 +1,4 @@
-package com.example.gui.model;
+package com.example.gui.models;
 
 public class Car {
     private String name;

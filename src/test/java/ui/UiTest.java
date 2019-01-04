@@ -1,7 +1,7 @@
 package ui;
 
 import base.BaseUiTest;
-import com.example.gui.model.Car;
+import com.example.gui.models.Car;
 import com.example.reporting.Feature;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;

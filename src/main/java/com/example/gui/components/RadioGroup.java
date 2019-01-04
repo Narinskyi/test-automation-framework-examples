@@ -35,7 +35,7 @@ public abstract class RadioGroup extends AbstractPageComponent {
     @PageComponentClass(id = "collapse3")
     public static class CarType extends RadioGroup {
         @Step
-        public void select(com.example.gui.model.CarType carType) {
+        public void select(com.example.gui.models.CarType carType) {
             select(carType.getDisplayedText());
         }
     }
