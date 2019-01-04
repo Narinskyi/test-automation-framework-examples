@@ -50,4 +50,12 @@ public class Car {
     public int getRaiting() {
         return rating;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", type=" + type +
+                '}';
+    }
 }

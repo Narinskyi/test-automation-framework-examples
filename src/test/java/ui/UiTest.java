@@ -49,4 +49,16 @@ public class UiTest extends BaseUiTest {
 
         onCarsPage.clickSearchInFilter();
     }
+
+    @Test
+    @TestCaseId("3")
+    public void failingTest() {
+        onCarsPage.open();
+
+        onCarsPage.selectCarType(Car.CAMRY.getType());
+
+        onCarsPage.clickSearch();
+
+        onCarsPage.verifySearchResultsContain(Car.ASTRA);
+    }
 }
